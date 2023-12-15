@@ -1,0 +1,8 @@
+#NEXUS
+Begin Taxa;
+ Dimensions NTax=15;
+ TaxLabels Banded Kestrel Lanner Laggar Taita Prairie RedNeck Dickinson Sooty Eleonora AfrHobby AusHobby Saker Merlin Amur;
+End;
+Begin Trees;
+ Tree tree1=((((Banded:0.00616,Kestrel:0.00616):0.00098,((((((Lanner:0.00025,Laggar:0.00025):0.00199,Taita:0.00223):0.00117,Prairie:0.00340):0.00158,RedNeck:0.00498):0.00051,Dickinson:0.00549):0.00022,((Sooty:0.00151,Eleonora:0.00151):0.00011,AfrHobby:0.00162):0.00409):0.00165):0.03216,AusHobby:0.03832):0.40682,(Saker:0.06482,(Merlin:0.04720,Amur:0.04720):0.01762):0.38032):0.00000;
+End;
