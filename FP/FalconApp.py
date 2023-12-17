@@ -73,7 +73,7 @@ class PhylogeneticApp:
             print(f"Alignment file loaded: {file_path}")
 
             # Update the label
-            self.update_labels()
+            self.alignment_label.set(file_path)  # Set the text variable
 
     def nj_analysis(self):
         script_dir = os.path.dirname(os.path.abspath(__file__))
