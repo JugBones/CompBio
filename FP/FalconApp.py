@@ -18,7 +18,7 @@ from tkinter import filedialog
 class PhylogeneticApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Phylogenetic Analysis App - NJ")
+        self.root.title("Phylogenetic Analysis App")
 
         # Variables
         self.alignment_file = ""
@@ -54,6 +54,9 @@ class PhylogeneticApp:
             command=self.upgma_analysis,
         )
         upgma_btn.grid(row=1, column=1, pady=10, columnspan=2)
+
+        # Adjust window size
+        self.root.geometry("400x200")  # Set the width and height of the window
 
     def update_labels(self, index=None):
         if index is not None and 0 <= index < 5:
